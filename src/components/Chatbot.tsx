@@ -123,8 +123,8 @@ const Chatbot = ({ isOpen, setIsOpen }: ModalProps) => {
               opacity: 1, 
               scale: 1, 
               y: 0,
-              width: isMaximized ? "100vw" : "auto",
-              height: isMaximized ? "100vh" : "auto"
+              width: isMaximized ? "100vw" : "360px", 
+              height: isMaximized ? "100vh" : "500px"
             }}
             exit={{ opacity: 0, scale: 0.95, y: 10 }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
