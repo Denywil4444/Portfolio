@@ -4,7 +4,7 @@ import { ExternalLink } from 'lucide-react';
 
 // Assets
 import pawtifyVideo from '../assets/videos/Pawtify.mp4';
-import settleSpaceVideo from '../assets/videos/Settle Space.mp4';
+import settleSpaceVideo from '../assets/videos/SettleSpace.mp4';
 import brmsVideo from '../assets/videos/BRMS.mp4';
 import financeVideo from '../assets/videos/Finance.mp4';
 import samaritanVideo from '../assets/videos/Samaritan.mp4';
