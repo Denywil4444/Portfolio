@@ -54,6 +54,7 @@ interface StackProps {
   cards?: React.ReactNode[];
   animationConfig?: { stiffness: number; damping: number };
   autoPlayInterval?: number;
+  randomRotation?: boolean;
 }
 
 export default function Stack({
@@ -61,7 +62,7 @@ export default function Stack({
   cards = [],
   animationConfig = { stiffness: 260, damping: 20 },
   sendToBackOnClick = false,
-  autoPlayInterval = 3000 // 3 seconds default
+  autoPlayInterval = 2000,
 }: StackProps) {
   const [hasInteracted, setHasInteracted] = useState(false);
   const [stack, setStack] = useState<CardItem[]>(() => {
